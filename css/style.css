@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+[class*="_container"] {
+max-width: 1230px;
+margin: 0 auto; 
+font-family: "Lato";
+}
+.title_container {
+	font-weight: 900;
+	font-size: 46px;
+	margin-bottom: 40px;
+	background-image:  linear-gradient(to bottom, #fcecfc 0%,#fba6e1 50%,#fd89d7 51%,#ff7cd8 100%);
+}
+.image_container {
+margin-bottom: 60px;
+background-image: url("../img/unicorn.jpg");
+background-repeat: space;
+background-size: contain;
+}
+.text_container {
+	margin-bottom: 50px;
+	color: #424551;
+	background-image: url("../img/good.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.block_container {
+	margin-bottom: 25px;
+	font-weight: 700;
+	font-size: 20px;
+    font-size: 20px;
+    background-color: coral;
+}
+.one_container {
+	margin-bottom: 30px;
+}
+.paragraf_container {
+	margin-bottom: 45px;
+}
+.lorem_container {
+margin-bottom: 40px;
+font-weight: 700;
+font-size: 20px;
+}
+.scroll_container {
+	margin-bottom: 15px;
+}
+.list_container {
+	margin-bottom: 15px;
+}
+.last_container {
+	height: 500px;
+	color: #424551;
+	background: url("../img/unicorn.jpg") no-repeat 10px 10px / 200px,yellowgreen url("../img/Ukraine.jpg") no-repeat 0 0 / 600px;
+}
